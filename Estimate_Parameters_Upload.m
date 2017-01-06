@@ -1,8 +1,8 @@
 %Estimate parameters of multi factor stochastic model from observed market data
 %Codes are only for generating fitted model volatilties without adding seasonality 
 
-tic
 close all; clear all;
+tic
 
 filename = 'marketdata.xlsx';
 subset = importdata(filename);

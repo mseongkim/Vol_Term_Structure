@@ -25,7 +25,6 @@ len = size(market_index,2);
 x_all = zeros(len,3);
 residual = zeros(len,1); 
 model_vol = zeros(wid,len);
-scaling_factor_raw = zeros(wid,len);
 for index = 1:len
     all_data = Vol(:,index); 
     T0_all = Time;
